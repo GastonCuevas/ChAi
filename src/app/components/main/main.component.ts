@@ -10,7 +10,8 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
   standalone: true,
   imports: [OverlapComponent,NavBarComponent,Overlap2Component,Overlap3Component,Overlap4Component],
   templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+  styleUrl: './main.component.css',
+  host: {ngSkipHydration: 'true'},
 })
 export class MainComponent {
 
