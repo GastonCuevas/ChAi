@@ -142,3 +142,37 @@
     letter-spacing: 0;
     line-height: normal;
   }
+  .frame-4 {
+    display: flex;
+    width: 102px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 22px;
+    left: 1257px;
+  }
+  
+  .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -0.5px;
+    margin-bottom: -0.5px;
+  }
+  .text-wrapper-20 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #121212;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
