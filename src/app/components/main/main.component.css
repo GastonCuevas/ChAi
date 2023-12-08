@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 .dash-usuario {
     background-color: #ffffff;
     display: flex;
@@ -8,8 +13,6 @@
   
   .dash-usuario .div {
     background-color: #ffffff;
-    width: 1366px;
-    height: 3004px;
     position: relative;
   }
   
