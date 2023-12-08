@@ -1,8 +1,9 @@
  .overlap-3 {
-    position: absolute;
+    position: relative;
     width: 1366px;
     height: 735px;
-    top: 1359px;
+    top: 559px;
+
     left: 0;
   }
   

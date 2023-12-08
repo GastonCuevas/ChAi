@@ -1,12 +1,10 @@
 
   .overlap {
-    position: relative;
-    width: 1366px;
-    height: 832px;
-    top: 0;
-    left: 0;
-    background-image: url(../../../assets/img/group.png);
+    display: flex;
+    height: 100vh; /* La sección ocupará el 100% del viewport height */
+    width: 100%;
     background-size: 100% 100%;
+    font-family: "Poppins-Regular", Helvetica;
   }
     
   .overlap-group {
@@ -32,7 +30,6 @@
     width: 550px;
     top: 339px;
     left: 48px;
-    font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 15px;
@@ -47,12 +44,20 @@
     left: 517px;
     object-fit: cover;
   }
-  .group {
+  .group-5 {
     position: absolute;
-    width: 52px;
-    height: 234px;
-    top: 243px;
-    left: 1312px;
+    width: 1366px;
+    height: 735px;
+    top: 40px;
+    left: 0;
+  }
+  .group{
+    position: absolute;
+    width: 259px;
+    height: 142px;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
   }
   .text-wrapper-2 {
     position: absolute;
@@ -67,7 +72,7 @@
     line-height: normal;
   }
   .line {
-    position: absolute;
+    position: relative;
     width: 1363px;
     height: 7px;
     top: 663px;
