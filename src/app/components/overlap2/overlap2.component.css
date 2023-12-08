@@ -1,0 +1,188 @@
+.dash-usuario .text-wrapper-4 {
+    position: absolute;
+    top: 882px;
+    left: 53px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.text-wrapper-5 {
+    position: absolute;
+    top: 935px;
+    left: 53px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.overlap-wrapper {
+    position: absolute;
+    width: 294px;
+    height: 311px;
+    top: 1003px;
+    left: 43px;
+  }
+  
+.overlap-2 {
+    position: relative;
+    width: 290px;
+    height: 311px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 11.3px #00000040;
+  }
+  
+.vector {
+    position: absolute;
+    width: 158px;
+    height: 2px;
+    top: 146px;
+    left: 6px;
+  }
+  
+.overlap-group-2 {
+    position: absolute;
+    width: 259px;
+    height: 142px;
+    top: 0;
+    left: 0;
+    /* background-image: url(./../../../assets/img/image.png); */
+    background-size: 100% 100%;
+  }
+  
+.text-wrapper-6 {
+    position: absolute;
+    top: 96px;
+    left: 34px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.text-wrapper-7 {
+    position: absolute;
+    width: 254px;
+    top: 194px;
+    left: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.group-2 {
+    position: absolute;
+    width: 294px;
+    height: 311px;
+    top: 1003px;
+    left: 373px;
+  }
+  
+.overlap-group-3 {
+    position: absolute;
+    width: 259px;
+    height: 142px;
+    top: 0;
+    left: 0;
+    background-image: url(./../../../assets/img/intersect.png);
+    background-size: 100% 100%;
+  }
+  
+.text-wrapper-8 {
+    position: absolute;
+    top: 88px;
+    left: 31px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.text-wrapper-9 {
+    position: absolute;
+    width: 262px;
+    top: 194px;
+    left: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.group-3 {
+    position: absolute;
+    width: 294px;
+    height: 311px;
+    top: 1003px;
+    left: 703px;
+  }
+  
+.overlap-group-4 {
+    position: absolute;
+    width: 259px;
+    height: 142px;
+    top: 0;
+    left: 0;
+    background-image: url(./../../../assets/img/intersect.png);
+    background-size: 100% 100%;
+  }
+  
+.text-wrapper-10 {
+    position: absolute;
+    width: 259px;
+    top: 173px;
+    left: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.group-4 {
+    position: absolute;
+    width: 294px;
+    height: 311px;
+    top: 1003px;
+    left: 1033px;
+  }
+  
+.overlap-group-5 {
+    position: absolute;
+    width: 259px;
+    height: 142px;
+    top: 0;
+    left: 0;
+    background-image: url(../../../assets/img/intersect.png);
+    background-size: 100% 100%;
+  }
+  
+.text-wrapper-11 {
+    position: absolute;
+    width: 252px;
+    top: 184px;
+    left: 15px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
