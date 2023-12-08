@@ -1,4 +1,4 @@
-.dash-usuario .text-wrapper-4 {
+.text-wrapper-4 {
     position: absolute;
     top: 882px;
     left: 53px;
@@ -53,7 +53,7 @@
     height: 142px;
     top: 0;
     left: 0;
-    /* background-image: url(./../../../assets/img/image.png); */
+    background-image: url(./../../../assets/img/intersect.png);
     background-size: 100% 100%;
   }
   
