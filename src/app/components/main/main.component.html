@@ -12,12 +12,12 @@
    <div class="overlay" *ngIf="isModalVisible" (click)="toggleModal()"></div>
    <div class="modal" *ngIf="isModalVisible">
       <button class="close-modal" (click)="toggleModal()">&times;</button>
-      <h1>Bienvenidos a ChAI</h1>
+      <h1>Welcome to ChAI</h1>
       <form>
          <input type="email" placeholder="Email">
          <input type="password" placeholder="Password">
-         <button type="submit">Ingresar</button>
-         <p>No tienes una cuenta? <a href="#">Registrate</a></p>
+         <button type="submit">Log In</button>
+         <p>Don't have an account?<a href="#">Sign Up</a></p>
       </form>
    </div>
 </body>

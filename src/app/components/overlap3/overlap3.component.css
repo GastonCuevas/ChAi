@@ -2,7 +2,8 @@
     position: relative;
     width: 1366px;
     height: 735px;
-    top: 559px;
+    top: 59px;
+    display: flex;
 
     left: 0;
   }
