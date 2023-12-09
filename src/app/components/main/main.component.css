@@ -17,6 +17,7 @@ body {
   .dash-usuario .container {
     background-color: #ffffff;
     position: relative;
+    margin-top: 60px;
   }
   
   .show-modal {
