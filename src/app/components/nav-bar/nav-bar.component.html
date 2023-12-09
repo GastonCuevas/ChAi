@@ -10,7 +10,7 @@
     </ul>
   </div>
   <div class="actions">
-    <button class="show-modal" (click)="toggleModal()">
+    <button class="show-modal" (click)="toggleModal()" *ngIf="!inBusiness()">
       Log In
     </button>
   </div>
