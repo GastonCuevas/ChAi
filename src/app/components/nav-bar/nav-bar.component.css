@@ -205,3 +205,16 @@ nav a {
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .show-modal {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(33, 172, 149);
+    color: rgb(241, 241, 241);
+    border-radius: 0.6rem;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+  }

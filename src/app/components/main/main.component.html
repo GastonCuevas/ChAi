@@ -1,11 +1,24 @@
 <body>
    <div class="dash-usuario">
       <div class="div">
-       <app-overlap></app-overlap>
-       <app-our-services id="services"></app-our-services>
-       <app-overlap3></app-overlap3>
-       <app-overlap4></app-overlap4>
-       <app-nav-bar></app-nav-bar>
-    </div>
- </div>
+         <app-overlap></app-overlap>
+         <app-our-services id="services"></app-our-services>
+         <app-overlap3></app-overlap3>
+         <app-overlap4></app-overlap4>
+         <app-nav-bar></app-nav-bar>
+         <app-nav-bar (showModal)="toggleModal()"></app-nav-bar>
+      </div>
+   </div>
+
+   <div class="overlay" *ngIf="isModalVisible" (click)="toggleModal()"></div>
+   <div class="modal" *ngIf="isModalVisible">
+      <button class="close-modal" (click)="toggleModal()">&times;</button>
+      <h1>Bienvenidos a ChAI</h1>
+      <form>
+         <input type="email" placeholder="Email">
+         <input type="password" placeholder="Password">
+         <button type="submit">Ingresar</button>
+         <p>No tienes una cuenta? <a href="#">Registrate</a></p>
+      </form>
+   </div>
 </body>
