@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.header-container {
+  flex: 1;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.mayor {
+  flex: 22;
+}
+
+.container-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}

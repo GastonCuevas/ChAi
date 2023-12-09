@@ -1,131 +1,20 @@
-html, body {
+html,
+body {
   margin: 0;
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
   font-family: "Poppins-Regular", Helvetica;
 
 }
 
 .dash-usuario {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .dash-usuario .div {
-    background-color: #ffffff;
-    position: relative;
-  }
-  
-  /* .dash-usuario .overlap {
-    position: absolute;
-    width: 1366px;
-    height: 832px;
-    top: 0;
-    left: 0;
-    background-image: url(./../../../assets/img/group.png);
-    background-size: 100% 100%;
-  }
-  
-  .dash-usuario .text-wrapper {
-    position: absolute;
-    top: 201px;
-    left: 50px;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .dash-usuario .overlap-group {
-    position: absolute;
-    width: 1364px;
-    height: 671px;
-    top: 63px;
-    left: 2px;
-  }
-  
-  .dash-usuario .p {
-    position: absolute;
-    width: 550px;
-    top: 339px;
-    left: 48px;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .dash-usuario .rectangle {
-    position: absolute;
-    width: 847px;
-    height: 671px;
-    top: 0;
-    left: 517px;
-    object-fit: cover;
-  }
-  
-  .dash-usuario .group {
-    position: absolute;
-    width: 52px;
-    height: 234px;
-    top: 243px;
-    left: 1312px;
-  }
-  
-  .dash-usuario .text-wrapper-2 {
-    position: absolute;
-    width: 586px;
-    top: 199px;
-    left: 48px;
-    font-family: "Poppins-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-   */
-  /* .dash-usuario .line {
-    position: absolute;
-    width: 1363px;
-    height: 7px;
-    top: 663px;
-    left: 0;
-  }
-  
-  .dash-usuario .overlap-group-wrapper {
-    position: absolute;
-    width: 199px;
-    height: 45px;
-    top: 543px;
-    left: 227px;
-  }
-  
-  .dash-usuario .div-wrapper {
-    position: relative;
-    width: 197px;
-    height: 45px;
-    border-radius: 6px;
-    background: linear-gradient(180deg, rgb(189.13, 222.61, 255) 0%, rgb(79, 112, 156) 100%);
-  }
-  
-  .dash-usuario .text-wrapper-3 {
-    position: absolute;
-    top: 11px;
-    left: 49px;
-    font-family: "Poppins-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: normal;
-  } */
-  
- 
-  
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dash-usuario .div {
+  background-color: #ffffff;
+  position: relative;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="header-container">
+    <div class="header-title">
+      <h1>What we do</h1>
+      <h2>Nuestro modelo funciona de la siguiente forma</h2>
+    </div>
+  </div>
+  <div class="mayor">
+    <div class="container-data">
+      <div *ngFor="let info of cards">
+        <app-app-info-section title="{{ info.title }}" description="{{ info.description }}" />
+      </div>
+    </div>
+  </div>
+</div>
