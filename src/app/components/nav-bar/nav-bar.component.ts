@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, EventEmitter, Inject, Output, ViewChild } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,6 +10,9 @@ import { AfterViewInit, Component, ElementRef, EventEmitter, Output, ViewChild }
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent{
+  constructor(@Inject(DOCUMENT) private document: Document) {
+    
+  }
   @Output() showModal = new EventEmitter<void>();
 
   navigationOptions= [
@@ -20,5 +24,14 @@ export class NavBarComponent{
 
   toggleModal() {
     this.showModal.emit();
+  }
+
+  createPDF() {
+    window.open("./../../../assets/reports/ChaiReport.pdf", '_blank');
+  }
+
+  inBusiness() {
+    // console.log(this.document.location.href);
+    return "http://localhost:4200/business" == this.document.location.href;
   }
 }

@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './business.component.css'
 })
 export class BusinessComponent {
-
+  createPDF() {
+    window.open("./../../../assets/reports/ChaiReport.pdf", '_blank');
+  }
 }
